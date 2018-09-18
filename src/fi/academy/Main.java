@@ -1,3 +1,5 @@
+package fi.academy;
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,9 +12,11 @@ public class Main {
         while (true) {
             int pelivalinta = Integer.parseInt(skanneri.nextLine());
             if (pelivalinta == 1) {
-                // Tästä käynnistetään peli 1
+                JavaVisa uusiVisa = new JavaVisa();
+                uusiVisa.kaynnista();
             } else if (pelivalinta == 2) {
-                //Tästä käynnistetään peli 2
+                Peli uusiPeli = new Peli();
+                peli.kaynnistaPeli();
             } else {
                 System.out.println("Antamasi komento ei ole validi. Syötä 1 tai 2");
             }

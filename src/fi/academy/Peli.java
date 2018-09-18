@@ -12,8 +12,12 @@ import java.util.Scanner;
  */
 public class Peli {
 
+    public Peli() {
 
-    public static void main(String[] args) {
+    }
+
+
+    public void kaynnistaPeli() {
         ArrayList<Kysymys> kysymykset = new ArrayList<>();
 
         Kysymys q1 = new Kysymys("1. Mitä seuraava tulostaa?\n" +

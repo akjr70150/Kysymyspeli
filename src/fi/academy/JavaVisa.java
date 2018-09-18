@@ -4,7 +4,11 @@ import java.util.*;
 
 public class JavaVisa {
 
-    public static void main(String[] args) {
+    public JavaVisa() {
+
+    }
+
+    public void kaynnista() {
         KysymysLista kl = new KysymysLista();
         ArrayList<KysymysOlio> kysymysList = kl.getLista();
         System.out.println("Tervetuloa Java-visaan.");
