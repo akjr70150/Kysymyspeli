@@ -95,7 +95,7 @@ public class Peli {
         System.out.println("Syötä käyttäjänimi: ");
         Kayttaja uusi = new Kayttaja(lukija.nextLine());
 
-        System.out.println("Terve " + uusi.getNimi() + "! \nPeli alkaa:");
+        System.out.println("Terve " + uusi.getNimi() + "! \nPeli alkaa. Huom. vastaa isolla kirjaimella.");
 
         while (vastaukset < 10) {
             Collections.shuffle(kysymykset);

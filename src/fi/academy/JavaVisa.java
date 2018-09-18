@@ -11,7 +11,7 @@ public class JavaVisa {
     public void kaynnista() {
         KysymysLista kl = new KysymysLista();
         ArrayList<KysymysOlio> kysymysList = kl.getLista();
-        System.out.println("Tervetuloa Java-visaan.");
+        System.out.println("Tervetuloa Java-visaan. Huom. peli alkaa aina alusta.");
 
 
         PisteTaulukko pisteet = new PisteTaulukko();

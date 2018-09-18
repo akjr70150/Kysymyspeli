@@ -16,7 +16,7 @@ public class Main {
                 uusiVisa.kaynnista();
             } else if (pelivalinta == 2) {
                 Peli uusiPeli = new Peli();
-                peli.kaynnistaPeli();
+                uusiPeli.kaynnistaPeli();
             } else {
                 System.out.println("Antamasi komento ei ole validi. Syötä 1 tai 2");
             }
