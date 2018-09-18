@@ -1,3 +1,5 @@
+package fi.academy;
+
 import java.util.*;
 
 public class JavaVisa {

@@ -10,7 +10,7 @@ import java.util.Scanner;
  * asd
  * asd
  */
-public class Main {
+public class Peli {
 
 
     public static void main(String[] args) {

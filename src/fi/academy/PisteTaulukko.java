@@ -1,3 +1,5 @@
+package fi.academy;
+
 public class PisteTaulukko {
 
     private int pisteet;
